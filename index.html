@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fruit List</title>
+  <style>
+    .error {
+      color: red;
+    }
+    body{
+      font-size: x-large;
+      flex-wrap: wrap;
+      
+    }
+    #clearBtn{
+      color: red;
+    }
+  </style>
+  <script src="javascript.js" defer></script>
+</head>
+<body>
+  <h1>My Favorite Fruits</h1>
+
+  <label for="fruitInput">Enter your favorite fruit:</label>
+  <input type="text" id="fruitInput">
+  <button id="submitBtn">Submit</button>
+  <button id="clearBtn" class="Btn">Clear List</button>
+  <p id="errorMessage" class="error"></p>
+
+  <ul id="fruitList"></ul>
+
+  
+</body>
+</html>
